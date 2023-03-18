@@ -1,0 +1,76 @@
+.flex-grow {
+  flex-grow: 1;
+}
+main {
+  background-image: linear-gradient(#cfe8f8, white);
+  height: 800px;
+}
+.search {
+  position: relative;
+  background-color: #5f90c7;
+  height: 50px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 10px;
+  border-radius: 6px;
+  border-left: 3px solid #000;
+  border-right: 3px solid #000;
+}
+.citiao {
+  height: 50px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 10px;
+}
+.box {
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 420px;
+  position: relative;
+}
+.info-left {
+  position: absolute;
+  height: 100%;
+  width: 49%;
+  background-color: #fff;
+  border: 3px solid #000;
+}
+.info-right {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 49%;
+}
+ul {
+  text-align: left;
+  font-size: 30px;
+  font-style: italic;
+}
+.bankuai {
+  height: 100px;
+  margin-left: 17vw;
+  margin-right: 17vw;
+  margin-top: 10px;
+}
+.bankuai-child {
+  position: relative;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-image: url('../../../public/home-img/图层 46.png');
+  background-size: contain;
+  margin-left: 30px ;
+  margin-right: 30px ;
+}
+.bankuai-img {
+  height: 60px;
+  width: 60px;
+  margin-top: 5px;
+}
+.bankuai-text {
+  font-size: 5px;
+  font-weight: bolder;
+  position: absolute;
+  bottom: 11px;
+  left: 27px;
+}
